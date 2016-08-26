@@ -5,7 +5,7 @@ module.exports={
         //'webpack/hot/only-dev-server'
     ],
     output:{
-        path:'./',
+        path:'./build/',
         filename:'bundle.js'
     },
     module:{
