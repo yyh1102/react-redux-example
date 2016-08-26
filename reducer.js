@@ -33,6 +33,7 @@ function todos(state=[],action){
     }
 }
 
+// 将不同的reducer函数组合成为一个总的state对象
 const todoApp=combineReducers({
     visibilityFilter,
     todos

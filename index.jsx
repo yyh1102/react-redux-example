@@ -12,6 +12,10 @@ const Root=()=>(
         <App />
     </Provider>
 );
+setInterval(function(){
+    console.log(store.getState())
+},2000)
+
 
 ReactDOM.render(
     <Root />,
